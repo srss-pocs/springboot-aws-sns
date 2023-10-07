@@ -21,8 +21,8 @@ public class AwsSnsApplication {
 
 	@Bean
 	AmazonSNS sns() {
-		AWSCredentials awsCredentials = new BasicAWSCredentials("AKIA57VYUOSVVBPDMK4O",
-                "uzq1sOJhjyBaWNrzDyf6BJYVsBS7x07wCmgphd1s");
+		AWSCredentials awsCredentials = new BasicAWSCredentials("xxxxxxxx",
+                "xxxxxxxxxxxxxxxxxxxxxxxxxx");
 
 		return AmazonSNSClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
 				.withRegion(Regions.SA_EAST_1).build();

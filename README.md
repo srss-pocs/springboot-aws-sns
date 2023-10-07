@@ -1,6 +1,6 @@
-# springboot-aws-sns
 Spring Boot 3.1.4
 
+A Simple Spring Boot Amazon SNS Service Integration Demo
 
 http://localhost:8080/api/createTopic?topicName=TestSNSTopic
 

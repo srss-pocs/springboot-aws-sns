@@ -25,7 +25,11 @@ http://localhost:8080/api/addSubscribers?arn=arn:aws:sns:us-east-1:961386149035:
 
 ![image](https://github.com/srss-pocs/springboot-aws-sns/assets/145287517/f3e51b26-3016-4f57-9d0b-1771694ccae6)
 
+![image](https://github.com/srss-pocs/springboot-aws-sns/assets/145287517/c5c968cd-ba24-4a3f-bddb-eecf9a60d7a0)
 
+
+http://localhost:8080/api/sendSMS?phone=xxxxxxx
+![image](https://github.com/srss-pocs/springboot-aws-sns/assets/145287517/e508b189-8429-42cf-8e89-0777c186832e)
 
 
 

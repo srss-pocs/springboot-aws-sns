@@ -52,8 +52,8 @@ public class AwsSnsConfig {
     public static SnsClient getSnsClient() throws URISyntaxException {
         return SnsClient.builder()
                 .credentialsProvider(getAwsCredentials(
-                        "AKIA57VYUOSVVBPDMK4O",
-                        "uzq1sOJhjyBaWNrzDyf6BJYVsBS7x07wCmgphd1s"))
+                        "xxxxxxxxxxxxx",
+                        "xxxxxxxxxxxxxxxxxxxxxxxxxx"))
                 .region(Region.US_EAST_1) //Set your selected region
                 .build();
     }
